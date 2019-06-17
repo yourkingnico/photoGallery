@@ -28,7 +28,18 @@ class Gallery extends Component {
             default:
                 return 'Some Trip'
         }
-    }   
+    } 
+    
+    gallery(){
+        return(
+            <ImageGallery
+                useTranslate3D={false}
+                lazyLoading={false} 
+                items={images[this.props.tripNumber]} 
+                useBrowserFullscreen={false}>
+            </ImageGallery>
+        )
+    }
 
     render() {
         const tripTitle = this.getTripTitle();
@@ -36,12 +47,7 @@ class Gallery extends Component {
             <div style={{ padding: '4%', marginTop: '5%'}}>
                 <h2>{tripTitle} </h2>
                 <div style={{ marginRight: '15%', marginLeft: '15%', marginBottom: '4%' }}>
-                    <ImageGallery
-                        useTranslate3D={true}
-                        lazyLoading={false} 
-                        items={images[this.props.tripNumber]} 
-                        useBrowserFullscreen={true}>
-                    </ImageGallery>
+                    {this.gallery()}
                 </div>
             </div>
         )
