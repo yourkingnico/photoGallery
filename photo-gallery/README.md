@@ -68,6 +68,13 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
+
+gatsby build --prefix-paths
+If this flag is not passed, Gatsby will ignore your pathPrefix and build out your site as if it were hosted from the root domain.
+
+
+
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
 <!-- AUTO-GENERATED-CONTENT:END -->

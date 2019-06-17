@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/nicks_site/portfolio/photos/public',
   siteMetadata: {
     title: `Nick's Photos`,
     description: `Photo gallery.`,
