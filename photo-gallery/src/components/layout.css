@@ -9,7 +9,7 @@
   width:auto;
   overflow-y: hidden;
   height:auto;
-  max-height: 90vh;
+  max-height: 100vh;
   font-family:"Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
   color:#fff;
   background-color:#000
@@ -585,5 +585,17 @@ body{
    }
 }
 
+.mobileMenu{
+  float: right;
+  background-color:#000;
+  color:#00cdff;
+  font-size: xx-large;
+}
+
+@media screen and (min-width: 769px) {
+  .mobileMenu{
+    display: none;
+  }
+}
 
   

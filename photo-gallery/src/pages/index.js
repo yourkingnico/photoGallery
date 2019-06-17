@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import Gallery from "../components/gallery"
 import {connect } from 'react-redux'

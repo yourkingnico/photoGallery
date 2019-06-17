@@ -1,17 +1,43 @@
 import PropTypes from "prop-types"
 import { connect } from 'react-redux';
 import React, { Component } from 'react';
-import {setTripNumber } from '../state/app'
+import {setTripNumber } from '../state/app';
 
 class Header extends Component {
  
+  constructor(props) {
+    super(props);
+    this.state = {
+       isMobile: false,
+       showMenu: false
+    };
+    this.showMenu = this.showMenu.bind(this);
+  }
+
+  showMenu(){
+    this.setState({
+      showMenu: !this.state.showMenu
+    })
+  }
+
+  mobileMenu(){
+    return(
+      <button onClick={this.showMenu} className='mobileMenu'>Menu</button>
+    )
+  }
+
   setTrip = (num) => {
-    this.props.setTripNumber(num)
+    this.props.setTripNumber(num);
+    this.showMenu();
   };
   
     render() {
+        let classNav = "collapse navbar-collapse navbar-right navbar-main-collapse";
+        if(this.state.showMenu){
+          classNav = "navbar-collapse navbar-right navbar-main-collapse"
+        }
         return(
-          <nav className="navbar navbar-custom navbar-fixed-top" role="navigation" style={{
+          <nav className="navbar navbar-custom " role="navigation" style={{
             opacity:'0.7'
           }}>
 
@@ -29,8 +55,10 @@ class Header extends Component {
                   { this.props.siteTitle }
                 </div>
               </a>
+              {this.mobileMenu()}
             </div>
-            <div className="collapse navbar-collapse navbar-right navbar-main-collapse">
+            
+            <div className={classNav}>
               
               <ul className="nav navbar-nav" id="nav-links" >
                

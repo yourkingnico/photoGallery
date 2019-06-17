@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
       <>
         <Header style={{
            backgroundColor: 'blue'
-          }} siteTitle={data.site.siteMetadata.title} />
+          }} siteTitle="{ Nick Torres }" />
         <div>
           <main>{children}</main>
         </div>

@@ -14,7 +14,6 @@ class Gallery extends Component {
             albumIndex: 0,
             tripNumber: 0
         };
-
     }
 
     getTripTitle() {
@@ -44,7 +43,7 @@ class Gallery extends Component {
     render() {
         const tripTitle = this.getTripTitle();
         return(
-            <div style={{ padding: '4%', marginTop: '5%'}}>
+            <div style={{ padding: '4%'}}>
                 <h2>{tripTitle} </h2>
                 <div style={{ marginRight: '15%', marginLeft: '15%', marginBottom: '4%' }}>
                     {this.gallery()}
