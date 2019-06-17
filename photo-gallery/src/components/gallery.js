@@ -28,7 +28,7 @@ class Gallery extends Component {
             default:
                 return 'Some Trip'
         }
-    }
+    }   
 
     render() {
         const tripTitle = this.getTripTitle();
@@ -37,10 +37,10 @@ class Gallery extends Component {
                 <h2>{tripTitle} </h2>
                 <div style={{ marginRight: '15%', marginLeft: '15%', marginBottom: '4%' }}>
                     <ImageGallery
-                        useTranslate3D={false}
+                        useTranslate3D={true}
                         lazyLoading={false} 
                         items={images[this.props.tripNumber]} 
-                        useBrowserFullscreen={false}>
+                        useBrowserFullscreen={true}>
                     </ImageGallery>
                 </div>
             </div>

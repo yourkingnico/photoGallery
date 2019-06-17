@@ -5,14 +5,34 @@ const bwca17 = [
       description: 'Sawbill Lake, MN'
     },
     {
-      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01864.JPG',
-      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01864.JPG',
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01863.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01863.JPG',
+      description: 'Going for a swim'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01867.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01867.JPG',
+      description: 'Going for a swim'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01870.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01870.JPG',
       description: 'Going for a swim'
     },
     {
       original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01872.JPG',
       thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01872.JPG',
       description: 'When the moose notices you...'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01876.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01876.JPG',
+      description: 'Going for a swim'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01880.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01880.JPG',
+      description: 'Going for a swim'
     },
     {
       original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01898.JPG',

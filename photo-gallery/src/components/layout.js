@@ -28,26 +28,9 @@ const Layout = ({ children }) => (
         <Header style={{
            backgroundColor: 'blue'
           }} siteTitle={data.site.siteMetadata.title} />
-        <div
-          // style={{
-          //   margin: `0 auto`,
-          //   padding: `0px 1.0875rem 1.45rem`,
-          //   paddingTop: 0,
-          // }}
-        >
+        <div>
           <main>{children}</main>
-          
         </div>
-        {/* <footer
-           style={{
-            position: 'fixed',
-            bottom:0,
-            left: '40%',
-            paddingTop: '20px'
-          }}
-          >
-          <p id="copyright">Copyright © Nicholas Torres  {new Date().getFullYear()}</p>
-          </footer> */}
       </>
     )}
   />
