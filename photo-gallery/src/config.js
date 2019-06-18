@@ -35,13 +35,93 @@ const bwca17 = [
       description: 'Going for a swim'
     },
     {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01891.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01891.JPG',
+      description: 'Going for a swim'
+    },
+    {
       original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01898.JPG',
       thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01898.JPG',
       description: 'Lunch on Mesaba Lake, MN'
     },
     {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01905.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01905.JPG',
+      description: 'Lunch on Mesaba Lake, MN'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01907.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01907.JPG',
+      description: 'Lunch on Mesaba Lake, MN'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01912.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01912.JPG',
+      description: 'Lunch on Mesaba Lake, MN'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01914.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01914.JPG',
+      description: 'Lunch on Mesaba Lake, MN'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01922.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01922.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01929.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01929.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
       original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01933.JPG',
       thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01933.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01936.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01936.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01938.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01938.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01941.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01941.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01954.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01954.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01962.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01962.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01967.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01967.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01984.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01984.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01986.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC01986.JPG',
+      description: 'How to hike with a canoe 101'
+    },
+    {
+      original: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC02002.JPG',
+      thumbnail: 'https://s3.amazonaws.com/nicktorres.net/nicks_site/images/bwca17/DSC02002.JPG',
       description: 'How to hike with a canoe 101'
     }
 ];

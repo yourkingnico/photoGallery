@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import { connect } from 'react-redux';
 import React, { Component } from 'react';
 import {setTripNumber } from '../state/app';
+import { Link } from "gatsby"
 
 class Header extends Component {
  
@@ -61,7 +62,9 @@ class Header extends Component {
             <div className={classNav}>
               
               <ul className="nav navbar-nav" id="nav-links" >
-               
+                <li>
+                <Link to="/directory/">Directory</Link>
+                </li>
                 <li>
                   <a onClick={() => this.setTrip(0) } className="page-scroll">
                     BWCA 2014
