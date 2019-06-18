@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-import { Container, Row, Col, Jumbotron, Button } from 'reactstrap';
+import { Container, Row} from 'reactstrap';
 import Layout from "../components/layout"
 import Album from "../components/album";
 
@@ -16,8 +15,7 @@ const Directory = () => (
             of big fish and wild blueberries. This week long paddle through Minnesota covered roughly
             20 Lakes in the eastern part of Superior National Forest."
             info="Shot with an Iphone 4 camera :)"
-            index={0}
-          >
+            index={0}>
           </Album>
           <Album
             imageSrc="http://nicktorres.net/nicks_site/images/bwca15/DSC06878.JPG"
@@ -27,8 +25,8 @@ const Directory = () => (
             Boundary Waters Canoe Area. This remote trip proved to have some beautiful views and peacful
             campsites."
             info="Photos by Daniel Torres"
-            index={1}
-          ></Album>
+            index={1}>
+          </Album>
           <Album
             imageSrc="http://nicktorres.net/nicks_site/images/bwca17/DSC01941.JPG"
             title="BWCA 2017"

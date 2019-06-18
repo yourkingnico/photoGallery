@@ -20,9 +20,10 @@ class Album extends Component {
             this.setState({isMobile: true})
         }
     }
+
     setTrip = () => {
         this.props.setTripNumber(this.props.index);
-      };
+    };
 
     renderText(){
         return(
