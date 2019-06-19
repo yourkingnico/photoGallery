@@ -579,8 +579,30 @@ body{
 
 @media screen and (min-width: 950px) {
   .image-gallery-slide img {
+    
+    height: auto;
     width: auto !important;
+    
     height: -webkit-fill-available;
+    
+   
+   }
+}
+
+/* Firefox adjustments */
+@-moz-document url-prefix() {
+  .image-gallery-slides{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+
+  .image-gallery-slide img {
+    max-height: 100%;
+    max-width: 100%;
+    position: block;
    }
 }
 

@@ -11,7 +11,7 @@ const Directory = () => (
             imageSrc="http://nicktorres.net/nicks_site/images/bwca17/DSC01866.JPG"
             title="BWCA 2017"
             description="Uncle Matt, Dan, and myself return to the Boundary Waters for our most difficult
-            trip yet. Trekking through moose territory and camping on our own island made this an
+             trip yet. Trekking through moose territory and camping on our own island made this an
             unforgettable experience. "
             info="Photos by Daniel Torres"
             index={2}

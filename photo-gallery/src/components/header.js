@@ -65,7 +65,7 @@ class Header extends Component {
                 <li>
                 <Link to="/directory/">Directory</Link>
                 </li>
-                <li>
+                {/* <li>
                   <a onClick={() => this.setTrip(0) } className="page-scroll">
                     BWCA 2014
                   </a>
@@ -79,7 +79,7 @@ class Header extends Component {
                   <a onClick={() => this.setTrip(2) } className="page-scroll">
                     BWCA 2017
                   </a>
-                </li>
+                </li> */}
                
               </ul>
               {this.props.tripNumber}
