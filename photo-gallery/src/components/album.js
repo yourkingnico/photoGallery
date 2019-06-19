@@ -15,7 +15,8 @@ class Album extends Component {
         };
     }
 
-    componentWillMount(){
+    componentDidMount(){
+        // Cannot use window in willMount. Can this be replaced with hooks?
         if( window.outerWidth < 600) {
             this.setState({isMobile: true})
         }
@@ -36,12 +37,13 @@ class Album extends Component {
                     <p>{this.props.info}</p>
                     <p className="lead">
                         <Link to="/">
-                            <Button 
+                            <Button
                                 style={{ float: 'right'}}
                                 color="success"
-                                onClick={this.setTrip }
+                                size="lg"
+                                onClick={ this.setTrip }
                                 >
-                                    View
+                                    View Photos
                             </Button>
                         </Link>
                         
@@ -110,8 +112,9 @@ class Album extends Component {
 
     render() {
         return(
-            <Jumbotron style={{ backgroundColor: '#394032'}} >
-                <Row>
+            <Jumbotron 
+                style={{ backgroundColor: '#394032'}} >
+                <Row  >
                     <Col>
                         <h1 className="display-3">{this.props.title}</h1>
                     </Col>
