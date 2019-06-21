@@ -39,7 +39,7 @@ class Album extends Component {
                         <Link to="/">
                             <Button
                                 style={{ float: 'right'}}
-                                color="success"
+                                color="brown"
                                 size="lg"
                                 onClick={ this.setTrip }
                                 >
