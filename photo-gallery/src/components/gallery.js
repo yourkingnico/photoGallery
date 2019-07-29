@@ -35,7 +35,7 @@ class Gallery extends Component {
                 useTranslate3D={false}
                 lazyLoading={false} 
                 items={images[this.props.tripNumber]} 
-                useBrowserFullscreen={false}>
+                useBrowserFullscreen={true}>
             </ImageGallery>
         )
     }
